@@ -5,3 +5,6 @@ before_build:
 
 build_script:
   msbuild /m MP.sln
+
+test_script:
+  - ctest -C Debug -V
