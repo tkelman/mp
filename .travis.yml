@@ -14,8 +14,8 @@ env:
                   -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY
                   -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY
                   -DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER"
-      PACKAGES="mingw64-x-gcc wine1.7"
-      PPAS="tobydox/mingw ubuntu-wine/ppa"
+      PACKAGES="mingw64-x-gcc"
+      PPAS="tobydox/mingw"
 
 # Install newer version of CMake as the one that comes preinstalled on
 # travis-ci doesn't support CMakeAddFortranSubdirectory.
